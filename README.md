@@ -34,7 +34,7 @@
 ```
 
 #### GET Detail Respon Sukses
-- Note : data bisa di isi sesuai kebutuhan
+- Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -47,7 +47,7 @@
 ```
 
 #### GET Detail Respon Data Tidak Ditemukan
-- Note : data bisa di isi sesuai kebutuhan
+- Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -60,7 +60,7 @@
 ```
 
 #### POST Add Update Delete Respon Berhasil
-- Note : data bisa di isi sesuai kebutuhan
+- Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -73,7 +73,7 @@
 ```
 
 #### POST Add Update Delete Respon Gagal
-- Note : data bisa di isi sesuai kebutuhan
+- Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -86,7 +86,7 @@
 ```
 
 #### POST Add Update Delete Respon Eror Validasi
-- Note : data bisa di isi sesuai kebutuhan
+- Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -99,7 +99,7 @@
 ```
 
 #### POST/GET Respon Eror Auth
-- Note : data bisa di isi sesuai kebutuhan
+- Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -107,6 +107,23 @@
     "message": "Anda tidak memiliki akses",
     "results": {
         "data": {}
+    }
+}
+```
+
+
+#### POST CDN Respon Berhasil
+- Note : thumb_url = file yg sudah di compress, original_url = file yg tidak di compress
+
+```
+{
+    "status": 412,
+    "message": "Nama tidak boleh kosong",
+    "results": {
+        "data": {
+          "thumb_url" : "",
+          "original_url" : ""
+        }
     }
 }
 ```
