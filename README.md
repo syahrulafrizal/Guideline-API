@@ -4,6 +4,7 @@
 3. Dir => `dir=DESC` => `Sort user_id DESC`
 4. Limit => default 10 => `limit=10`
 5. Page => default 1 => `page=1`
+6. search => `search=bakwan`
 
 
 
