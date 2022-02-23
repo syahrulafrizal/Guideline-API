@@ -2,7 +2,7 @@
 1. Sort => `sort=user_id` 
 2. Dir => `dir=ASC` => `Sort user_id ASC`
 3. Dir => `dir=DESC` => `Sort user_id DESC`
-4. Limit => default 10 => `limit=10
+4. Limit => default 10 => `limit=10`
 5. Page => default 1 => `page=1`
 
 
