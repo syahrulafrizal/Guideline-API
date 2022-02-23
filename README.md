@@ -1,3 +1,12 @@
+### Sort, Dir, Limit, Page
+1. Sort => `sort=user_id` 
+2. Dir => `dir=ASC` => `Sort user_id ASC`
+3. Dir => `dir=DESC` => `Sort user_id DESC`
+4. Limit => default 10 
+5. Page => default 1
+
+
+
 ## Respon API
 #### HTTP CODE
 - 200 ( Untuk semua respon )
