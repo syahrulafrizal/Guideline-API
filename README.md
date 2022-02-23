@@ -90,3 +90,15 @@
     }
 }
 ```
+
+#### Respon Eror Auth
+
+```
+{
+    "status": 401,
+    "message": "Anda tidak memiliki akses",
+    "results": {
+        "data": {}
+    }
+}
+```
