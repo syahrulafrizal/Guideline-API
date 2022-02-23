@@ -17,6 +17,7 @@
 - 401 ( Untuk token tidak valid / expired )
 
 #### GET List Respon Sukses
+- Note : next_page = 0, Jika sudah di halaman akhir.
 ```
 {
     "status": 200,
@@ -26,13 +27,14 @@
         "pagination":{
             "total_data": 9,
             "total_page": 1,
-            "next_page": 0, // 0, Jika sudah di halaman akhir.
+            "next_page": 0,
         }
     }
 }
 ```
 
 #### GET Detail Respon Sukses
+- Note : data bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -45,6 +47,7 @@
 ```
 
 #### GET Detail Respon Data Tidak Ditemukan
+- Note : data bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -57,6 +60,7 @@
 ```
 
 #### POST Add Update Delete Respon Berhasil
+- Note : data bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -69,6 +73,7 @@
 ```
 
 #### POST Add Update Delete Respon Gagal
+- Note : data bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -81,6 +86,7 @@
 ```
 
 #### POST Add Update Delete Respon Eror Validasi
+- Note : data bisa di isi sesuai kebutuhan
 
 ```
 {
@@ -93,6 +99,7 @@
 ```
 
 #### POST/GET Respon Eror Auth
+- Note : data bisa di isi sesuai kebutuhan
 
 ```
 {
