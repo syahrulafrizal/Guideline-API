@@ -55,7 +55,7 @@
 }
 ```
 
-#### GET Add Update Delete Respon Berhasil
+#### POST Add Update Delete Respon Berhasil
 
 ```
 {
@@ -67,7 +67,7 @@
 }
 ```
 
-#### GET Add Update Delete Respon Gagal
+#### POST Add Update Delete Respon Gagal
 
 ```
 {
@@ -79,7 +79,7 @@
 }
 ```
 
-#### GET Add Update Delete Respon Eror Validasi
+#### POST Add Update Delete Respon Eror Validasi
 
 ```
 {
@@ -91,7 +91,7 @@
 }
 ```
 
-#### Respon Eror Auth
+#### POST/GET Respon Eror Auth
 
 ```
 {
