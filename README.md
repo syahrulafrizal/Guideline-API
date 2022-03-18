@@ -10,7 +10,7 @@
 
 ## Respon API
 #### Data
-- Pastikan tidak ada value yg null (didefault string kosong jika null) =>  `user_avatar=null` diubah `user_avatar=""`
+- Pastikan tidak ada value yg null
 
 #### HTTP CODE
 - 200 ( Untuk semua respon )
