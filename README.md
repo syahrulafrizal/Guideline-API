@@ -13,7 +13,8 @@
 - Pastikan tidak ada value yg null
 
 #### HTTP CODE
-- 200 ( Untuk semua respon )
+- 200 ( Untuk respon berhasil )
+- 400 ( Untuk respon gagal )
 - 401 ( Untuk token tidak valid / expired )
 
 #### GET List Respon Sukses
