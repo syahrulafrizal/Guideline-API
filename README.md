@@ -15,6 +15,7 @@
 #### HTTP CODE
 - 200 ( Untuk respon berhasil )
 - 400 ( Untuk respon gagal )
+- 412 ( Untuk respon gagal validasi form input)
 - 401 ( Untuk token tidak valid / expired )
 
 #### GET List Respon Sukses
