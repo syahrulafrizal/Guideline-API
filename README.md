@@ -17,6 +17,7 @@
 - 400 ( Untuk respon gagal )
 - 412 ( Untuk respon gagal validasi form input)
 - 401 ( Untuk token tidak valid / expired )
+- 403 ( Untuk refresh token tidak valid / expired)
 
 #### GET List Respon Sukses
 - Note : next_page = 0, Jika sudah di halaman akhir.
