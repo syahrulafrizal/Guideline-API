@@ -9,8 +9,6 @@
 
 
 ## Respon API
-#### Data
-- Pastikan tidak ada value yg null
 
 #### HTTP CODE
 - 200 ( Untuk respon berhasil )
