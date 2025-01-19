@@ -23,6 +23,7 @@
 {
     "status": 200,
     "message": "Data Ditemukan.",
+    "validation": {},
     "results": {
         "data": [],
         "pagination":{
@@ -41,9 +42,8 @@
 {
     "status": 200,
     "message": "Detail Data Ditemukan.",
-    "results": {
-        "data": {}
-    }
+    "validation": {},
+    "results": {}
 }
 ```
 
@@ -54,9 +54,8 @@
 {
     "status": 400,
     "message": "Detail Data Tidak Ditemukan.",
-    "results": {
-        "data": {}
-    }
+    "validation": {},
+    "results": {}
 }
 ```
 
@@ -67,9 +66,8 @@
 {
     "status": 200,
     "message": "Berhasil Add Update Delete Data",
-    "results": {
-        "data": {}
-    }
+    "validation": {},
+    "results": {}
 }
 ```
 
@@ -80,9 +78,8 @@
 {
     "status": 400,
     "message": "Gagal Add Update Delete Data.",
-    "results": {
-        "data": {}
-    }
+    "validation": {},
+    "results": {}
 }
 ```
 
@@ -92,10 +89,14 @@
 ```
 {
     "status": 412,
-    "message": "Nama tidak boleh kosong",
-    "results": {
-        "data": {}
-    }
+    "message": "error_validation",
+    "validation": {
+       "username" : [
+           "tidak boleh kosong",
+           "hanya boleh alphabet"
+       ]
+    },
+    "results": {}
 }
 ```
 
@@ -106,25 +107,7 @@
 {
     "status": 401,
     "message": "Anda tidak memiliki akses",
-    "results": {
-        "data": {}
-    }
-}
-```
-
-
-#### POST CDN Respon Berhasil
-- Note : thumb_url = file yg sudah di compress, original_url = file yg tidak di compress
-
-```
-{
-    "status": 412,
-    "message": "Nama tidak boleh kosong",
-    "results": {
-        "data": {
-          "thumb_url" : "",
-          "original_url" : ""
-        }
-    }
+    "validation": {},
+    "results": {}
 }
 ```
