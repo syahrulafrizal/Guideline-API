@@ -24,7 +24,7 @@
     "status": 200,
     "message": "Data Ditemukan.",
     "validation": {},
-    "results": {
+    "result": {
         "data": [],
         "pagination":{
             "total_data": 9,
@@ -43,7 +43,7 @@
     "status": 200,
     "message": "Detail Data Ditemukan.",
     "validation": {},
-    "results": {}
+    "result": {}
 }
 ```
 
@@ -55,7 +55,7 @@
     "status": 400,
     "message": "Detail Data Tidak Ditemukan.",
     "validation": {},
-    "results": {}
+    "result": {}
 }
 ```
 
@@ -67,7 +67,7 @@
     "status": 200,
     "message": "Berhasil Add Update Delete Data",
     "validation": {},
-    "results": {}
+    "result": {}
 }
 ```
 
@@ -79,7 +79,7 @@
     "status": 400,
     "message": "Gagal Add Update Delete Data.",
     "validation": {},
-    "results": {}
+    "result": {}
 }
 ```
 
@@ -96,7 +96,7 @@
            "hanya boleh alphabet"
        ]
     },
-    "results": {}
+    "result": {}
 }
 ```
 
@@ -108,6 +108,6 @@
     "status": 401,
     "message": "Anda tidak memiliki akses",
     "validation": {},
-    "results": {}
+    "result": {}
 }
 ```
