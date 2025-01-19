@@ -59,7 +59,7 @@
 }
 ```
 
-#### POST Add Update Delete Respon Berhasil
+#### POST/PATCH/PUT/DELETE Add Update Delete Respon Berhasil
 - Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
@@ -71,7 +71,7 @@
 }
 ```
 
-#### POST Add Update Delete Respon Gagal
+#### POST/PUT/PATCH/DELETE Add Update Delete Respon Gagal
 - Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
@@ -83,7 +83,7 @@
 }
 ```
 
-#### POST Add Update Delete Respon Eror Validasi
+#### POST/PUT/PATCH/DELETE Add Update Delete Respon Eror Validasi
 - Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
@@ -100,7 +100,7 @@
 }
 ```
 
-#### POST/GET Respon Eror Auth
+#### POST/PUT/PATCH/DELETE/GET Respon Eror Auth
 - Note : data dan message bisa di isi sesuai kebutuhan
 
 ```
